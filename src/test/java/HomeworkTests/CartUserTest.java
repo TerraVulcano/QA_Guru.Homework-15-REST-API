@@ -21,7 +21,7 @@ public class CartUserTest {
         @BeforeAll
         static void setup() {
             RestAssured.baseURI = "http://demowebshop.tricentis.com";
-            Configuration.startMaximized = true;
+         //   Configuration.startMaximized = true;
             Configuration.baseUrl = "http://demowebshop.tricentis.com";
         }
 
