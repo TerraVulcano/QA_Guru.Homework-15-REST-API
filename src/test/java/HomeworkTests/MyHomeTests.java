@@ -76,18 +76,4 @@ public class MyHomeTests {
                 .statusCode(200)
                 .body("token", is("QpwL5tke4Pnpja7X4"));
     }
-/*
-    @Test
-    void successCreateTest() {
-        given()
-                .contentType(JSON)
-                .body("{ \"name\": \"morpheus\", \"job\": \"leader\" }")
-                .when()
-                .post("/api/users")
-                .then()
-                .statusCode(201)
-                .body("id", is(820))
-                .body("createdAt", is("2021-11-30T15:44:13.270Z"));
-    }
-    */
 }
